@@ -21,8 +21,10 @@ headers and answer behaviors.
 * You need at least GET, POST, and DELETE methods.
 * Stress tests your server. It must stay available at all cost.
 
-Executable will be run as follows:  
- ./webserv [configuration file]
+The executable will be run as follows:  
+```bash
+./webserv [configuration file]
+ ```
 
 You can see the full assignment here [subject](https://github.com/cbridget42/webserv/blob/main/subject/en.subject.pdf)
 
@@ -49,10 +51,10 @@ server {
 }
 ```
 ### Description of directives:
-Listen : The address that the web server will listen on.  
-Root : path to your files.  
-Methods : allowed methods for this path.  
-max_body_size : maximum file size that can be uploaded to the server.  
-index : returned file if a folder is requested.  
-autoindex : if a folder is requested will produce the listing directory.  
-bin_path : path to binary file.  
+* Listen : The address that the web server will listen on.  
+* Root : path to your files.  
+* Methods : allowed methods for this path.  
+* max_body_size : maximum file size that can be uploaded to the server.  
+* index : returned file if a folder is requested.  
+* autoindex : if a folder is requested will produce the listing directory.  
+* bin_path : path to binary file.  
