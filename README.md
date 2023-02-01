@@ -54,7 +54,7 @@ server {
 * Listen : The address that the web server will listen on.  
 * Root : path to your files.  
 * Methods : allowed methods for this path.  
-* max_body_size : maximum file size that can be uploaded to the server.  
-* index : returned file if a folder is requested.  
-* autoindex : if a folder is requested will produce the listing directory.  
-* bin_path : path to binary file.  
+* Max_body_size : maximum file size that can be uploaded to the server.  
+* Index : returned file if a folder is requested.  
+* Autoindex : if a folder is requested will produce the listing directory.  
+* Bin_path : path to binary file.  
